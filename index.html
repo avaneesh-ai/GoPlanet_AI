@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="GoPlanet" />
-    <meta name="theme-color" content="#6c5ce7" />
-    <meta name="description" content="GoPlanet – Your intelligent AI chatbot platform powered by Groq." />
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="GoPlanet AI Chatbot" />
-    <meta property="og:description" content="Chat, create, and learn with GoPlanet AI – powered by Groq." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/og-image.png" />
-
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <title>GoPlanet AI Chatbot</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>GoPlanet AI Chatbot</title>
+  <meta name="description" content="Intelligent AI Chatbot powered by Groq and OpenAI"/>
+  <meta name="theme-color" content="#6c5ce7"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+  <meta name="apple-mobile-web-app-title" content="GoPlanet"/>
+  <link rel="manifest" href="/manifest.json"/>
+  <link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html,body,#root{height:100%;width:100%;}
+    body{font-family:system-ui,-apple-system,sans-serif;overflow:hidden;}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
